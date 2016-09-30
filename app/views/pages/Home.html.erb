@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to the Maze Runner</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="app/assets/stylesheets/bootstrap.min.css.scss" rel="stylesheets">
+
+    <!-- Custom CSS -->
+    <link href="app/assets/stylesheets/stylish-portfolio.css.scss" rel="stylesheets">
+
+    <!-- Custom Fonts -->
+<!--    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Header -->
+
+    <header id="top" class="header">
+      <center>
+
+        <div class="text-vertical-center">
+            <h1>Welcome to the Maze Runner</h1>
+            <h3>Your poor (wo)man's Pac-Man</h3>
+            <br>
+            <img src="assets/images/giphy.gif">
+            <br>
+            <button class="btn" data-toggle="modal" data-target="#GameModal" hover="Click here to start this exciting game!">Start!</button>
+            <button class="btn" data-toggle="modal" data-target="#InstructionModal" hover="Click here to instructions on how to play">Instructions</button>
+        </div>
+    </header>
+
+<!-- Modal -->
+<div class="modal fade" id="GameModal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">The Maze Runner</h4>
+      </div>
+      <div class="modal-body">
+        <a>link rb=maze-runner.rb</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class"btn btn-default" data-dismiss="modal"> Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="InstructionModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Instructions from your overlord</h4>
+          </div>
+          <div class="modal-body">
+            <p>The goal of this game is to collect all the treasures (gold tiles), and then exit from the green tile, in as short a time as possible.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class"btn btn-default" data-dismiss="modal"> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <hr class="small">
+                    <h4><strong>Put together for the application to TechLadies 2nd Bootcamp</strong>
+                    </h4>
+                    <p><small>by Novi Wijaya
+                    </p>
+                    <p class="text-muted"><small>(of course with lotsa help from the internet)</p>
+                      <audio controls>
+                        <source src="Pacman.mp3" type="audio/mp3">
+                        Your browser does not support the audio element
+                      </audio>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="app/assets/javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="app/assets/javascripts/bootstrap.min.js"></script>
+
+</body>
+
+</html>
